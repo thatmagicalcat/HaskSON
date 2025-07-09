@@ -10,7 +10,7 @@ main = do
             contents <- readFile filename
             either putStrLn (putStrLn . prettyPrint) (parse contents)
 
-        _ -> putStrLn "Usage: myapp <filename>"
+        _ -> putStrLn "Usage: haskson <filename.json>"
 
 data Ast
     = AstObject [(String, Ast)]
