@@ -1,0 +1,7 @@
+{
+    "name": "magical cat",
+    "languages": [
+        "rust", "haskell", "c/c++"
+    ],
+    "empty": []
+}
